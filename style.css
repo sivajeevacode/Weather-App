@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+body
+{
+    background-color: #333;
+}
+.card
+{
+    margin: 30px auto 0;
+    width:400px;
+    background:linear-gradient(135deg,#00feba,#5b548a);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.search-bar input
+{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+#btn
+{
+    background-color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #333;
+}
+.error
+{
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 5px;
+    color: #fff;
+    display: none;
+}
+
+.weather
+{
+    text-align: center;
+    display: none;
+}
+.weather .icon
+{
+    width: 170px;
+    margin-top: 10px;
+}
+.weather .temp
+{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+.weather .city
+{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+.details
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    column-gap: 60px;
+}
+.details .col
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #fff;
+}
+.col img
+{
+    width: 40px;
+    margin-right: 10px;
+}
